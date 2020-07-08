@@ -35,5 +35,7 @@ function output(obs) {
   state.innerText = new_person.location.state
   const postcode = document.querySelector("#postcode")
   postcode.innerText = new_person.location.postcode
+  const image = document.querySelector("#profile_picture")
+  image.src = new_person.picture.medium
 }
 
